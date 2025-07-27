@@ -6,3 +6,9 @@ export interface ButtonProps {
   buttonBackgroundColor?: ButtonColor;
   action: () => void;
 }
+export interface PageRouteProps {
+  pageRoute: string;
+}
+export interface LayoutProps {
+  children: ReactNode;
+}
